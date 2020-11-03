@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from deform_play.deform_cov import ConvOffset2D
+from deform_cov import ConvOffset2D
 
 class BasicBlock(nn.Module):
     expansion = 1
